@@ -1,0 +1,13 @@
+{
+  "pet_id": "pet_6abcdc8672088191a1e44cb6d185d512",
+  "name": "Rosie",
+  "description": "A cheerful pink owl with sparkling teal eyes, a purple bow, and a golden crown.",
+  "is_custom": true,
+  "is_active": true,
+  "active_pet_id": "pet_6abcdc8672088191a1e44cb6d185d512",
+  "verified": true,
+  "sprite_version": 2,
+  "sha256": "5816303541b82a0b274a4ba27713a66adbccc0399a1d01c1d0e5d99dd1ac7afb",
+  "generation_mode": "built-in image generation",
+  "library_storage": "Library tools unavailable; complete artifacts preserved in workspace and archive"
+}
