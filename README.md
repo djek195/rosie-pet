@@ -12,14 +12,12 @@ If Rosie already appears in **Settings > Pets**, select her and skip the install
 
 ### 1. Download the repository
 
-This is a private repository, so your GitHub account must have access. Download and extract it using **Code > Download ZIP**, or clone it with the [GitHub CLI](https://cli.github.com/):
+Download and extract the public repository using **Code > Download ZIP**, or clone it with Git:
 
 ```sh
-gh repo clone djek195/rosie-pet
+git clone https://github.com/djek195/rosie-pet.git
 cd rosie-pet
 ```
-
-Run `gh auth login` first if the GitHub CLI is not authenticated.
 
 ### 2. Create a local pet folder
 
