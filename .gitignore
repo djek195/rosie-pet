@@ -1,3 +1,7 @@
 work/
 outputs/
 .DS_Store
+*.zip
+*.jpg
+*.jpeg
+**/references/

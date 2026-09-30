@@ -87,7 +87,7 @@ The current idle keeps its blink. The artwork and existing previews have not bee
 
 - [spritesheet.png](spritesheet.png) — transparent v2 atlas, 1536 × 2288 pixels, with 192 × 208 cells in an 8 × 11 grid.
 - [previews/](previews/) — individual state GIFs, a combined GIF and MP4, an idle/jump transition, look directions, and still frames.
-- [source/](source/) — the source artwork archive and the original creation record.
+- [source/](source/) — the original creation record.
 
 ## Previews
 
@@ -98,8 +98,10 @@ The current idle keeps its blink. The artwork and existing previews have not bee
 - [All frames](previews/contact-sheet.png)
 - [Labeled look directions](previews/look-directions.png)
 
-## Source artwork and validation
+## Validation and reference privacy
 
-The [artwork and prompts archive](source/rosie-artwork-and-prompts.zip) contains the original references, canonical character, animation strips and their revisions, final sprite sheet, validation reports, and processing scripts.
+Only generated pet artwork, previews, and creation metadata are published. Original reference photos, reference collages, and source archives are excluded from this repository and its rewritten history.
+
+If you cloned the repository before the reference cleanup, replace that clone with a fresh one before contributing. Pushing the old history could restore the removed files.
 
 The final sprite sheet passed structural validation, the pet quality gate, independent look-direction review, and Pets upload validation. The original pet's stable ID and creation metadata are recorded in [creation-record.json](source/creation-record.json). That ID belongs to the original installation; a new local installation uses its own folder-based identity.
